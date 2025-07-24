@@ -65,3 +65,29 @@ source ~/.bashrc
 
 # In Bash: Test
 fastq-dump --version
+```
+## 📥 SRA File Download
+
+After installing the SRA Toolkit, use the `SRA_downloader_bash_script` provided in this repository.
+
+> **Note**: The output directory used in the script is:  
+> `SRA_TOOL/tmp`
+
+A demo FASTQ file used in this pipeline can be downloaded here:  
+[Demo FASTQ File](https://drive.google.com/file/d/1DGHjbhcRy_zTm6H9C_AUpkzBML-JhtA3/view)
+
+---
+
+## 📦 Installing Miniconda
+
+Miniconda is used to manage tools like `fastqc`, `multiqc`, `trimmomatic`, `hisat2`, and others.
+
+### 1. Download Miniconda
+
+Visit the [Miniconda Download Page](https://docs.conda.io/en/latest/miniconda.html) or use:
+
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+
+
