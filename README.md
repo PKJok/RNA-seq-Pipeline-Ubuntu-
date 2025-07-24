@@ -29,6 +29,7 @@ Recommended beginner-friendly tutorials:
 
 🧠 Imp bash script: To open the current working directory in Windows File Explorer.
 ```
+# In bash 
 explorer.exe .
 ```
 
