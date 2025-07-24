@@ -27,6 +27,11 @@ Recommended beginner-friendly tutorials:
 3. [Bash for Biologists #3](https://youtu.be/h1Xm0j-gjbQ)
 4. [Linux Bash Basics](https://youtu.be/amUmwDt1WB0)
 
+🧠 Imp bash script: To open the current working directory in Windows File Explorer.
+```
+explorer.exe .
+```
+
 ---
 
 ## 💻 Why Linux for RNA-seq?
