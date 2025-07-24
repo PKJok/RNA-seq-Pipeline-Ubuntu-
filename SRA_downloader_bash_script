@@ -1,0 +1,31 @@
+#!/bin/bash
+
+set -e # exit on error
+
+SRA_ID="SRR7265373"
+OUTDIR="$HOME/SRA_TOOL/tmp"
+THREADS=4
+MEMORY=4000
+
+# Create output directory
+mkdir -p "$OUTDIR"
+
+echo "Downloading $SRA_ID..."
+prefetch "$SRA_ID"
+
+echo "Converting $SRA_ID to FASTQ..."
+fasterq-dump \
+  --split-files \
+  --progress \
+  --threads "$THREADS" \
+  --mem "$MEMORY" \
+  --outdir "$OUTDIR" \
+  "$SRA_ID"
+
+echo "✔ Conversion complete: FASTQ files saved in $OUTDIR"
+
+# Optional cleanup
+echo "🧹 Cleaning up .sra file..."
+rm -f "$HOME/ncbi/public/sra/${SRA_ID}.sra"
+
+echo "✅ Done!"
