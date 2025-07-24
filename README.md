@@ -53,7 +53,7 @@ From the study ["Rice B2 and B3 RAFs play central roles in ABA and osmotic stres
 ## 🔧 Install the SRA Toolkit
 
 ```bash
-# Download
+# In bash:Download by using wget
 wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.2.1/sratoolkit.3.2.1-ubuntu64.tar.gz
 
 # Extract
