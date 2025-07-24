@@ -148,7 +148,7 @@ conda config --add channels conda-forge
 > **Note**: Bioconda is required to install most bioinformatics tools like `sra-tools`, `samtools`, `bwa`, and others. Conda-forge is also important because many Bioconda packages depend on it.
 
 
-# Unified Conda Environment for RNA-seq Tools
+## Unified Conda Environment for RNA-seq Tools
 
 After adding channels, we create a Unified Conda Environment. Instead of managing separate environments for each tool, create a single Conda environment that includes all necessary tools (FastQC, Trimmomatic, HISAT2, etc.) to minimize activation steps.
 
@@ -171,7 +171,7 @@ conda activate rna_seq
 
 ---
 
-# How to Interpret the FastQC Report
+## How to Interpret the FastQC Report
 
 ## Materials
 1. [MSU FastQC Tutorial](https://rtsf.natsci.msu.edu/genomics/technical-documents/fastqc-tutorial-and-faq.aspx)
@@ -180,7 +180,7 @@ conda activate rna_seq
 
 ---
 
-# Downloading Essential Materials
+## Downloading Essential Materials
 
 ## a. Adapters for Trimmomatic
 
@@ -210,7 +210,7 @@ tar -xvfz grch38_genome.tar.gz
 
 ---
 
-# Understanding Trimmomatic
+## Understanding Trimmomatic
 
 ## 1. Removing Adapter Sequences
 
@@ -239,7 +239,7 @@ The `MINLEN` parameter ensures only sufficiently long reads are retained.
 
 ---
 
-# References
+## References
 
 ## Trimmomatic
 - [Trimmomatic Manual](http://www.usadellab.org/cms/?page=trimmomatic)
@@ -254,7 +254,7 @@ The `MINLEN` parameter ensures only sufficiently long reads are retained.
 
 ---
 
-# Final Note
+## Final Note
 
 Use the provided `RNA-seq_Pipeline_bash_script` **step by step**. Do not run it all at once. Manage input/output directories accordingly or seek help from AI tools when necessary.
 
