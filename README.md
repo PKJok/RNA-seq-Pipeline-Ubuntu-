@@ -1,6 +1,6 @@
 # 🧬 RNA-seq Pipeline with Ubuntu, FastQC, Trimmomatic, HISAT2, and Samtools
 
-This repository presents a complete **RNA-seq pipeline** using essential bioinformatics tools—**FastQC**, **Trimmomatic**, **HISAT2**, **Samtools**, and the **SRA Toolkit**—to process raw sequencing data (e.g., FASTQ or SRA files) into aligned and sorted **BAM** files.
+This repository presents a complete **RNA-seq pipeline** using essential bioinformatics tools such as **FastQC**, **Trimmomatic**, **HISAT2**, **Samtools**, and the **SRA Toolkit** to process raw sequencing data (e.g., FASTQ or SRA files) into aligned and sorted **BAM** files.
 
 ---
 
@@ -15,6 +15,8 @@ This RNA-seq pipeline includes:
 - BAM conversion and sorting using Samtools
 
 All steps are executed in a **Linux/Ubuntu environment**. If you're using Windows, you’ll need [**Windows Subsystem for Linux (WSL)**](https://learn.microsoft.com/en-us/windows/wsl/) and Ubuntu, both can be downloaded from the **Microsoft Store**.
+
+Use this [**youtube tutorial**](https://youtu.be/OqCPkcRoMF0?si=eTzRoNglRq6dEFWn) to download Ubuntu and WSL.
 
 ### 🧪 Learn Bash Basics for Bioinformatics
 
