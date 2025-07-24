@@ -78,16 +78,62 @@ A demo FASTQ file used in this pipeline can be downloaded here:
 
 ---
 
-## 📦 Installing Miniconda
 
-Miniconda is used to manage tools like `fastqc`, `multiqc`, `trimmomatic`, `hisat2`, and others.
 
-### 1. Download Miniconda
+## 🐍 Installing Miniconda on Linux
 
-Visit the [Miniconda Download Page](https://docs.conda.io/en/latest/miniconda.html) or use:
+Follow these steps to install Miniconda and configure channels for bioinformatics work.Miniconda is used to manage tools like `fastqc`, `multiqc`, `trimmomatic`, `hisat2`, and others.
+
+### 1. Download Miniconda Installer
+
+Visit the [Miniconda download page](https://docs.conda.io/en/latest/miniconda.html) or use the command below for 64-bit Linux:
 
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
 
+### 2. Verify the Installer (Optional but Recommended)
 
+```bash
+sha256sum Miniconda3-latest-Linux-x86_64.sh
+```
 
+### 3. Run the Installer
+
+```bash
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+Follow the prompts to complete the installation.
+
+### 4. Initialize Conda
+
+```bash
+~/miniconda3/bin/conda init bash
+```
+
+### 5. Restart the Terminal or Source Your Shell Config
+
+```bash
+source ~/.bashrc
+```
+
+### 6. Test the Conda Installation
+
+```bash
+conda --version
+```
+
+---
+
+## ➕ Add Bioconda and Conda-Forge Channels
+
+After installing Conda, add the necessary channels to install bioinformatics tools.
+
+```bash
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+```
+
+> **Note**: Bioconda is required to install most bioinformatics tools like `sra-tools`, `samtools`, `bwa`, and others. Conda-forge is also important because many Bioconda packages depend on it.
