@@ -14,7 +14,7 @@ This RNA-seq pipeline includes:
 - Splice-aware alignment using HISAT2
 - BAM conversion and sorting using Samtools
 
-All steps are executed in a **Linux/Ubuntu environment**. If you're using Windows, you’ll need [**Windows Subsystem for Linux (WSL)**](https://learn.microsoft.com/en-us/windows/wsl/) and Ubuntu, both available from the Microsoft Store.
+All steps are executed in a **Linux/Ubuntu environment**. If you're using Windows, you’ll need [**Windows Subsystem for Linux (WSL)**](https://learn.microsoft.com/en-us/windows/wsl/) and Ubuntu, both can be downloaded from the **Microsoft Store**.
 
 ### 🧪 Learn Bash Basics for Bioinformatics
 
