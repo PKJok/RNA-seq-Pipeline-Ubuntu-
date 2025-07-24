@@ -77,7 +77,7 @@ After installing the SRA Toolkit, use the `SRA_downloader_bash_script` provided 
 
 ---
 
-## A demo FASTQ file used in the above given pipeline in the repository can be downloaded here:
+⬇️ ## A demo FASTQ file used in the above given pipeline in the repository can be downloaded here:
 [Demo FASTQ File](https://drive.google.com/file/d/1DGHjbhcRy_zTm6H9C_AUpkzBML-JhtA3/view) 
 
 ---
